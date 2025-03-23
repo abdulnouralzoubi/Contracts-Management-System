@@ -144,18 +144,13 @@ function Login() {
                     Login
                   </button>
 
-                  <MDBBtn
-                    className="w-100 mb-4 d-flex align-items-center justify-content-center gap-2"
-                    style={{
-                      backgroundColor: "#FDA12B", // Your theme's orange color
-                      color: "#fff",
-                      fontWeight: "500",
-                      borderRadius: "5px",
-                    }}
-                    onClick={handleGoogleLogin}
-                  >
-                    <i className="fab fa-google"></i> Sign in with Google
-                  </MDBBtn>
+                  <button
+                    className="w-100 mb-3 btn text-white"
+                    style={{ backgroundColor: "#FDA12B"}}
+                    size="md"
+                    onClick={handleGoogleLogin}                  >
+                   <i className="fab fa-google"></i> Sign in with Google
+                  </button>
 
                   {error && (
                     <p
