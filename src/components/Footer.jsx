@@ -39,7 +39,7 @@ export default function Footer() {
                 </p>
                 <p>
                     <i className="fa fa-phone-alt me-3" />
-                    +962777777777
+                    +962772345678
                 </p>
                 <p>
                     <i className="fa fa-envelope me-3" />
